@@ -1,25 +1,4 @@
-//
-//  Node.cpp
-//  Lab 3 The Resistor Network Program
-// Author: 
-// Date:
 
-//   Node();  // sets numRes to 0, voltage to 0 and voltageIsSet to false
-//   bool canAddResistor();  // returns if the number of resistors is less than
-//                           // MAX_RESISTORS_PER_NODE
-//   void addResistor(int rIndex);  // adds a resistor to resIDArray array and
-//                                  // increments number of resistors
-
-//   double getVoltage();  // returns voltage
-//   void setVoltage(
-//       double voltage_);  // sets voltage and sets voltageIsSet to true
-//   void setVoltageInternally(
-//       double voltage_);  // sets voltage temporarily during iterations for solve
-//                          // command
-//   bool isVoltageSet();   // returns voltageIsSet
-
-//   int getNumRes();       // returns numRes
-//   int* getResIDArray();  // returns resIDArray
 
 #include "Node.h"
 #include <iomanip>
